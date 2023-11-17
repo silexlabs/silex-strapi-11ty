@@ -28,6 +28,35 @@ module.exports = async function () {
     }
   })).data
 
+
+  result['strapi'] = (await EleventyFetch('http://localhost:1337/graphql', {
+    duration: '2s',
+    type: 'json',
+    fetchOptions: {
+      headers: {
+        'content-type': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      method: 'POST',
+      body: JSON.stringify({
+        query: `query {
+  __typename
+  posts(pagination: {}, sort: [], publicationState: "LIVE") {
+    __typename
+    data {
+      __typename
+      attributes {
+        __typename
+        Title
+        Date
+      }
+    }
+  }
+}`,
+      })
+    }
+  })).data
+
   return result
 }
   

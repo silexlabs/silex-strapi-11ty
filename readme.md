@@ -16,7 +16,7 @@ $ npm install
 
 ## Usage
 
-Start strapi with this command, it will start a server on http://localhost:1337
+Start strapi with this command, it will start a server on http://localhost:1337 with a default admin user (email: admin@admin.com, password: adminADMIN1)
 
 ```bash
 $ npm run strapi

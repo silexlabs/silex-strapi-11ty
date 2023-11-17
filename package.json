@@ -6,7 +6,9 @@
   "scripts": {
     "silex": "silex -c `pwd`/.silex.js --debug --server-config=`pwd`/.silex-server.js --fs-root=`pwd` --fs-hosting-root=`pwd`",
     "11ty": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "strapi": "cd strapi && npm run develop"
+
   },
   "author": "lexoyo",
   "license": "MIT",
