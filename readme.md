@@ -2,6 +2,9 @@
 
 This is a simple example of how to integrate Silex with 11ty and strapi.
 
+![Screenshot_2023-11-17-18-10-07-078_com google android apps docs](https://github.com/silexlabs/silex-strapi-11ty/assets/715377/b9b21157-0ded-49b2-a912-dc6db0a05f4d)
+
+
 Links:
 
 - [Silex](https://www.silex.me/)
