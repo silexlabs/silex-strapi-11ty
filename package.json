@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "silex": "silex -c `pwd`/.silex.js --debug --server-config=`pwd`/.silex-server.js --fs-root=`pwd` --fs-hosting-root=`pwd`",
+    "11ty": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "@silexlabs/silex": "^3.0.0-alpha.124"
+  },
+  "dependencies": {
+    "@silexlabs/silex-plugin-11ty": "^0.0.9",
+    "node_modules-path": "^2.0.7"
+  }
+}

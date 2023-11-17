@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/css/index.css" />
+
+
+<title></title>
+<link rel="icon" href="" />
+<meta name="description" property="description" content=""/>
+<meta name="og:title" property="og:title" content=""/>
+<meta name="og:description" property="og:description" content=""/>
+<meta name="og:image" property="og:image" content=""/>
+</head>
+<body id="ia29"><SECTION id="iqiau">{% liquid
+    assign var_i0o7_27 = countries.continents
+    %}
+    {% for state_i0o7___data in var_i0o7_27 %}
+  <div id="i0o7" class="card" style="min-height: 100px; display: inline-block; background-color: #c3d9ff;"><H2 id="i1zj" class="card__item">{% liquid
+    assign var_i1zj_24 = state_i0o7___data.name
+    echo var_i1zj_24
+  %}</H2>{% liquid
+    assign var_iuyu_26 = state_i0o7___data.countries
+    %}
+    {% for state_i1zj___data in var_iuyu_26 %}
+  <div class="card__item">{% liquid
+    assign var_iuyu_25 = state_i1zj___data.name
+    echo var_iuyu_25
+  %}</div>{% endfor %}</div>{% endfor %}</SECTION></body>
+</html>
