@@ -12,29 +12,21 @@
 <meta name="og:description" property="og:description" content=""/>
 <meta name="og:image" property="og:image" content=""/>
 </head>
-<body id="ia29"><SECTION id="iqiau">{% liquid
-    assign var_i0o7_6 = countries.continents
+<body id="ie5s"><div id="i3wt">{% liquid
+    assign var_ijkd_35 = strapi.posts.data
     %}
-    {% for state_i0o7___data in var_i0o7_6 %}
-  <div id="i0o7" class="card" style="min-height: 100px; display: inline-block; background-color: #c3d9ff;"><H2 id="i1zj" class="card__item">{% liquid
-    assign var_i1zj_3 = state_i0o7___data.name
-    echo var_i1zj_3
-  %}</H2>{% liquid
-    assign var_iw5i_5 = state_i0o7___data.countries
-    %}
-    {% for state_i1zj___data in var_iw5i_5 %}
-  <div class="card__item">{% liquid
-    assign var_iw5i_4 = state_i1zj___data.name
-    echo var_iw5i_4
-  %}</div>{% endfor %}</div>{% endfor %}</SECTION><SECTION id="isohi">{% liquid
-    assign var_iv24_11 = strapi.posts.data
-    %}
-    {% for state_iv24___data in var_iv24_11 %}
-  <div id="iv24" class="card card--secondary" style="min-height: 100px;"><H2 id="idri" style="padding: 10px;">{% liquid
-    assign var_idri_9 = state_iv24___data.attributes.Title
-    echo var_idri_9
-  %}</H2><div style="padding: 10px;">{% liquid
-    assign var_i28fk_10 = state_iv24___data.attributes.Date
-    echo var_i28fk_10
-  %}</div></div>{% endfor %}</SECTION></body>
+    {% for state_ijkd___data in var_ijkd_35 %}
+  <div id="ijkd" class="fiche"><div id="iyjc1">Insert your text here</div><div id="ir9b" class="fiche-title">{% liquid
+    assign var_ir9b_31 = state_ijkd___data.attributes.Title
+    echo var_ir9b_31
+  %}</div><div id="ibgap" class="fiche-subtitle">{% liquid
+    assign var_ibgap_32 = state_ijkd___data.attributes.Content
+    echo var_ibgap_32
+  %}</div><div id="iv3dd" class="fiche-subtitle">{% liquid
+    assign var_iv3dd_33 = state_ijkd___data.attributes.Date
+    echo var_iv3dd_33
+  %}</div><div id="i8nbh" class="fiche-subtitle">{% liquid
+    assign var_i8nbh_34 = state_ijkd___data.attributes.createdAt
+    echo var_i8nbh_34
+  %}</div><div id="ipm6t" class="fiche-subtitle">phone: 244</div></div>{% endfor %}</div></body>
 </html>
