@@ -15,8 +15,8 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-fetch": "^4.0.0",
-    "@silexlabs/silex": "^3.0.0-alpha.125",
-    "@silexlabs/silex-cms": "^0.0.86",
+    "@silexlabs/silex": "^3.0.0-alpha.147",
+    "@silexlabs/silex-cms": "^0.0.90",
     "node_modules-path": "^2.0.7"
   }
 }
